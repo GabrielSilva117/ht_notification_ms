@@ -1,10 +1,8 @@
 package io.gabrielsilva117.ht_notification_ms.mqueues;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.gabrielsilva117.ht_notification_ms.config.MQConfig;
 import io.gabrielsilva117.ht_notification_ms.dto.EmailDTO;
-import io.gabrielsilva117.ht_notification_ms.dto.EmailRequest;
 import io.gabrielsilva117.ht_notification_ms.service.EmailService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

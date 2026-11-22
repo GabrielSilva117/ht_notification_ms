@@ -1,6 +1,5 @@
 package io.gabrielsilva117.ht_notification_ms.config;
 
-import lombok.NoArgsConstructor;
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;
 import org.springframework.amqp.core.DirectExchange;
